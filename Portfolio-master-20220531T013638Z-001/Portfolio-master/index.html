@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Maru Vivas</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/ca25be580a.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" 
+    crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg p-0">
+        <div class="container-fluid nav-container">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" 
+          aria-controls="#navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end mx-3" id="navbarTogglerDemo03">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#about">Acerca de mi</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#skills">Habilidades</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#projects">Mis Proyectos</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#contact">Contáctame</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="hero-section d-flex justify-content-end align-items-center dark-text">
+          <div class="d-flex flex-column w-50 mx-5 my-5 title">
+			<h1 class="text-start">¡Hola mundo!<br>Soy María Eugenia</h1>
+			<p class="text-start my-2">FrontEnd Developer en construcción</p>
+          </div>
+      </div>
+      <section class="about d-flex flex-column align-items-center dark-text p-5" id="about">
+		<h2>Acerca de mi</h2>
+        <div class="summary w-75 d-flex flex-lg-row flex-sm-column align-items-center justify-content-between m-4">
+			<p class="w-100">Mi nombre es <span>María Eugenia</span> y actualmente me estoy formando como <span>FrontEnd Developer</span>
+			en la academia <span>Desafío Latam</span>. Mi interés en el desarrollo web inició haciendo actualizaciones
+			sencillas del contenido en la página web del estudio jurídico donde actualmente me desempeño 
+			como asistente ejecutivo. Investigar cómo hacer pequeñas modificaciones en WordPress, me
+			abrió el apetito por saber más del mundo tech y dar un salto desde las Ciencias Sociales
+			(soy Cientista Político). Actualmente, busco mi primera oportunidad laboral para poner 
+			a prueba todo lo aprendido tanto en la academia como de forma autodidacta.</p>	
+			<div class="w-75 mt-sm-5 avatar">
+				<img class="w-75 avatar-img mx-5" src="assets/img/avatar2.jpg">
+			</div>    
+		</div>   
+      </section>
+      <section class="d-flex flex-column align-items-center p-5 light-text skills" id="skills">
+	  	<h2>Tecnologías con las que he trabajado</h2>
+          <div class="icons w-50 d-flex flex-lg-row flex-sm-column align-items-center justify-content-between m-5">
+			<i class="fab fa-html5 fa-3x"></i>
+			<i class="fab fa-css3-alt fa-3x mt-sm-4"></i>
+			<i class="fab fa-bootstrap fa-3x mt-sm-4"></i>
+			<i class="fab fa-js-square fa-3x mt-sm-4"></i>
+			<i class="fab fa-react fa-3x mt-sm-4"></i>	
+          </div>
+      </section>
+      <section class="p-5 d-flex flex-column align-items-center projects dark-text" id="projects">
+	  	<h2>Mis proyectos</h2>
+		<div class="container row row-cols-1 row-cols-md-2 row-cols-lg-3 mx-auto my-4 g-5">
+			<div class="col">
+				<div class="card mx-auto h-100">
+					<a href="https://github.com/MaruVivas/greens4u.git" target="_blank">
+						<img src="assets/img/greens4u.png" class="card-img-top h-80" alt="greens for you">
+					</a>
+					<div class="card-body">
+						<h5 class="card-title text-center dark-text">Greens for You</h5>
+						<p class="card-text">Home de e-commerce de plantas</p>
+					</div>
+				</div>
+			</div>
+		
+			<div class="col">
+				<div class="card mx-auto h-100">
+					<a href="https://github.com/MaruVivas/iguanas.git" target="_blank">
+						<img src="assets/img/iguanas.png" class="card-img-top h-80" alt="iguanas">
+					</a>
+					<div class="card-body">
+						<h5 class="card-title text-center dark-text">Iguanas</h5>
+						<p class="card-text">Landing page</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col">
+				<div class="card mx-auto h-100">
+					<a href="https://github.com/MaruVivas/adogta.git" target="_blank">
+						<img src="assets/img/adogta.png" class="card-img-top h-80" alt="adogta">
+					</a>
+					<div class="card-body">
+						<h5 class="card-title text-center dark-text">Adogta</h5>
+						<p class="card-text">Home de web para agencia de adopción</p>			
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card mx-auto h-100">
+					<a href="https://github.com/MaruVivas/MMDB.git" target="_blank">
+						<img src="assets/img/mmdb.png" class="card-img-top" alt="mmdb">
+					</a>
+					<div class="card-body">
+						<h5 class="card-title text-center dark-text">MMDB</h5>
+						<p class="card-text">Mi primera landing page inspirada en IMDB</p>
+					</div>
+				</div>	
+			</div>
+
+			<div class="col">
+				<div class="card mx-auto h-100">
+					<a href="https://github.com/MaruVivas/Wonder-Mountain.git" target="_blank">
+						<img src="assets/img/wonder.png" class="card-img-top" alt="wonder mountain">
+					</a>
+						<div class="card-body">
+						<h5 class="card-title text-center dark-text">Wonder Mountain</h5>
+						<p class="card-text">Home de Blog. Proyecto de curso de Flexbox.</p>
+					</div>
+				</div>	
+			</div>
+
+			<div class="col">
+				<div class="card mx-auto h-100">
+					<a href="https://github.com/MaruVivas/Newsletter-AG.git" target="_blank">
+						<img src="assets/img/boletin.png" class="card-img-top" alt="boletin-ag">
+					</a>
+					<div class="card-body">
+						<h5 class="card-title text-center dark-text">Boletín Informativo AG</h5>
+						<p class="card-text">Newsletter para Arteaga Gorziglia. Boletín de circulación interna para la
+						difusión vía correo electrónico</p>
+					</div>
+				</div>	
+			</div>
+		</div>	
+    </section>
+   	<section class="p-5 d-flex flex-column align-items-center contact light-text" id="contact">
+		<h2>Contáctame</h2>
+		<div class="w-50 d-flex justify-content-center m-3 contact-text">
+			<p class="text-center">¿Te gustó mi trabajo? <br> No dudes en ponerte en contacto</p>
+		</div>
+		<div class="contact-icons">
+			<a href="https://github.com/MaruVivas" target="_blank"><i class="fab fa-github fa-2x mx-2"></i></a>
+			<a href="https://linkedin.com/in/maria-eugenia-vivas-decanio-65869a5b" target="_blank"><i class="fab fa-linkedin fa-2x mx-2"></i></a>
+		</div>
+		<a class="email-link" href="mailto:mariavivasdecanio@gmail.com">Escríbeme</a>
+      </section>
+      <footer class="light-text">
+		<p>Developed by Maru Vivas</p>
+      </footer>    
+</body>
+</html>
