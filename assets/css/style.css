@@ -6,6 +6,11 @@
 	background-color: #0a192f;
 }
 
+.logo {
+	width: 15%;
+	margin-left: 3rem;
+}
+
 .nav-container a {
 	color: #BFD7ED;
 }
@@ -62,7 +67,8 @@ i {
 .avatar-img {
 
 	border-radius: 100%;
-	
+	box-shadow: 3px 11px 42px -8px rgba(0,0,0,0.66);
+	margin-top: 0;	
 }
 
 .about p {
