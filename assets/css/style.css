@@ -1,0 +1,104 @@
+
+* {
+	font-family: 'Quicksand', sans-serif;
+}
+.nav-container, .skills, .contact, footer {
+	background-color: #0a192f;
+}
+
+.logo {
+	width: 15%;
+	margin-left: 3rem;
+}
+
+.nav-container a {
+	color: #BFD7ED;
+}
+
+.nav-container a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.hero-section {
+	background-image:url("../img/hero-section.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 120vh;
+}
+
+.title h1 {
+	font-size: 3rem;
+	font-weight: 700;
+	color: #0a192f;
+}
+
+.title p {
+	font-size: 1.5rem;
+	font-weight: 300;
+	color: #0a192f;
+	
+}
+
+span {
+	font-weight: 700;
+}
+
+.light-text {
+	color: #BFD7ED;
+}
+
+.dark-text {
+	color: #003060;
+}
+
+h2 { 
+	text-align: center;
+}
+
+i {
+	font-size: 1rem;
+}
+
+.fa-react, .fa-js-square {
+	color: #003060;
+}
+
+.avatar-img {
+
+	border-radius: 100%;
+	box-shadow: 3px 11px 42px -8px rgba(0,0,0,0.66);
+	margin-top: 0;	
+}
+
+.about p {
+	text-align: justify;
+}
+
+.card:hover {
+	transform: scale(1.1);
+}
+
+.email-link {
+	border: solid 1px #BFD7ED;
+	border-radius: 15px;
+	background-color: #0a192f;
+	color:#BFD7ED;
+	padding: 10px 15px;
+	text-decoration: none;
+	margin-top: 25px;
+}
+
+.email-link:hover {
+	background-color: #003060;
+	color:#BFD7ED;
+}
+
+footer {
+	margin: 0;
+	text-align: center;
+	padding: 10px;
+}
+footer p {
+	margin: 0;
+}
