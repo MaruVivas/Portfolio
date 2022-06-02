@@ -65,7 +65,6 @@ i {
 }
 
 .avatar-img {
-
 	border-radius: 100%;
 	box-shadow: 3px 11px 42px -8px rgba(0,0,0,0.66);
 	margin-top: 0;	
@@ -109,7 +108,7 @@ footer p {
 
 @media (max-width: 576px) {
 	.navbar-brand{
-		width: 70%
+		width: 70%;
 	}
-	;
+
 }
