@@ -7,8 +7,8 @@
 }
 
 .logo {
-	width: 15%;
-	margin-left: 3rem;
+	width: 10%;
+	margin-left: 1rem;
 }
 
 .nav-container a {
@@ -105,4 +105,11 @@ footer {
 }
 footer p {
 	margin: 0;
+}
+
+@media (max-width: 576px) {
+	.navbar-brand{
+		width: 70%
+	}
+	;
 }
